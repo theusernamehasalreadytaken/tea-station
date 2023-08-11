@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea Station || Products</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <span class="navbar-btn" id="navbar-btn"><i class="fa-solid fa-bars"></i></span>
+    <aside class="navbar" id="navbar">
+      <div class="navbar-header">
+        <span class="navbar-close" id="navbar-close"><i class="fa-solid fa-times"></i></span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./index.html" class="navbar-link">Home</a></li>
+          <li><a href="./skills.html" class="navbar-link">skills</a></li>
+          <li><a href="./about.html" class="navbar-link">about</a></li>
+          <li><a href="./products.html" class="navbar-link">products</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <header class="header">
+      <div class="banner">
+        <h2>over one hundred flavors of</h2>
+        <h1>
+          specially <br />
+          crafted tea
+        </h1>
+        <a href="./index.html" class="btn banner-btn">explore</a>
+      </div>
+    </header>
+    <div class="divider"></div>
+    <section class="products">
+      <div class="section-center clearfix">
+        <div class="products-info-col">
+          <div class="section-title">
+            <h3>check out</h3>
+            <h2>our products</h2>
+          </div>
+          <p class="products-info-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro nihil saepe consectetur tenetur quam, nesciunt minus temporibus
+            ad praesentium in necessitatibus ipsam sunt alias mollitia.
+          </p>
+          <a href="./products.html" class="btn">inventory</a>
+        </div>
+        <div class="products-col clearfix">
+          <article class="product">
+            <img src="./images/fruit-sangria.jpg" alt="" />
+            <h4>fruit sangria</h4>
+            <h4 class="product-price">$6.99</h4>
+          </article>
+          <article class="product">
+            <img src="./images/green-tea.jpg" alt="" />
+            <h4>green tea</h4>
+            <h4 class="product-price">$6.99</h4>
+          </article>
+          <article class="product">
+            <img src="./images/red-tea.jpg" alt="" />
+            <h4>red tea</h4>
+            <h4 class="product-price">$6.99</h4>
+          </article>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="section-center">
+        <div class="social-icons">
+          <a href="#" class="social-icon"> <i class="fa-brands fa-facebook"></i> </a>
+          <a href="#" class="social-icon"> <i class="fa-brands fa-twitter"></i> </a>
+          <a href="#" class="social-icon"> <i class="fa-brands fa-instagram"></i> </a>
+        </div>
+        <h4 class="footer-text">&copy; <span id="current-year"></span> <span class="company">tea station</span> all rights reserved.</h4>
+      </div>
+    </footer>
+  </body>
+</html>
